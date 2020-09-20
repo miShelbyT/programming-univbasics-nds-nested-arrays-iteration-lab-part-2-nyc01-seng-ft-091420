@@ -3,7 +3,7 @@ def find_min_in_nested_arrays(src)
   row = 0
   while row < src.count do
     index = 0
-    smallest_index = INFINITY
+    smallest_index = Infinity
     while index < src[row].count do
       if src[row][index] < smallest_index
         smallest_index = src[row][index]
